@@ -84,7 +84,7 @@ class GeneSetEnrichmentAnalysis:
         self._gene_set_coll = copy.deepcopy(gene_set_coll)
 
         self._gene_indices = \
-                dict([gene, i]
+                dict([gene.name, i]
                      for i, gene in enumerate(valid_genes))
 
         # generate annotation matrix by going over all gene sets
