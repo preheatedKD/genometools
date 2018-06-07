@@ -8,6 +8,6 @@ from .profile import ExpProfile
 from .matrix import ExpMatrix
 from .normalize import quantile_normalize
 from .filter import filter_variance
-
+from .genome import ExpGenome
 __all__ = ['ExpGene', 'ExpGenome', 'ExpProfile', 'ExpMatrix',
            'quantile_normalize', 'filter_variance']
